@@ -14,6 +14,11 @@ and applying backtesting.
 4. Backtests both portfolios on a user-defined out-of-sample test period
 5. Reports returns, volatility, Sharpe ratio, max drawdown, and final capital
 
+The backtesting cases in this repository are designed to stress-test the model across
+different historical market regimes — bull markets, crashes, rate hike cycles, and
+geopolitical shocks — to understand where the model performs well and where its
+limitations appear.
+
 ---
 
 ## How to use
@@ -45,7 +50,7 @@ then run Monte Carlo, optimize, backtest, and display results.
 
 ---
 
-##  Important!
+##  Important
 
 The API can return both `close` and `adjClose`. It's important to use `adjClose` 
 to prevent the use of extreme returns on stock split dates.
