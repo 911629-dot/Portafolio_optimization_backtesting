@@ -1,5 +1,4 @@
 # Portafolio_optimization_backtesting
-# Portfolio Optimization
 
 A quantitative portfolio for student purposes, using Monte Carlo and 
 Scipy mean-variance optimization to find optimal asset allocations 
